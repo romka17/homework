@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск квартиры</title>
+</head>
+<body>
+    <h1>Подбор квартиры</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="street"></label>
+            <input id="street" type="text" name="street" placeholder="Район,Улица,Метро">
+        </div>
+        <div>
+            <h2>Количество квартир</h2>
+            <label>Студия
+                <input type="checkbox" name="room[]" value="studio">
+            </label>
+
+            <label>1
+                <input type="checkbox" name="room[]" value="one">
+            </label>
+
+            <label>2
+                <input type="checkbox" name="room[]" value="two">
+            </label>
+
+            <label>3
+                <input type="checkbox" name="room[]" value="three">
+            </label>
+
+            <label>4
+                <input type="checkbox" name="room[]" value="four">
+            </label>
+
+            <label>5
+                <input type="checkbox" name="room[]" value="five">
+            </label>
+        </div>
+
+        <div>
+            <h2>Год сдачи</h2>
+            <label>2021
+                <input type="checkbox" name="age[]" value="2021">
+            </label>
+
+            <label>2022
+                <input type="checkbox" name="age[]" value="2022">
+            </label>
+
+            <label>2023
+                <input type="checkbox" name="age[]" value="2023">
+            </label>
+
+            <label>2024
+                <input type="checkbox" name="age[]" value="2024">
+            </label>
+
+            <label>2025
+                <input type="checkbox" name="age[]" value="2025">
+            </label>
+        </div>
+        <div>
+            <h2>Стоимость квартиры</h2>
+            <label>Стоимость
+                <input type="number" name="price" placeholder="От">
+                <input type="number" name="price" placeholder="До">
+            </label>
+        </div>
+        <div>
+            <h2>Общая площадь</h2>
+            <label>
+                <input type="number" name="general" placeholder="От">
+                <input type="number" name="general" placeholder="До">
+            </label>
+        </div>
+        <div>
+            <h2>Дополнительно:</h2>
+            <label for="category"></label>
+            <select name="category" id="category">
+                <optgroup label="Выбор"></optgroup>
+                <option value="with">С отделкой</option>
+                <option value="without">Без отделки</option>
+            </select>
+        </div>
+        <div>
+            <label for="category-1"></label>
+            <select name="category-1" id="category-1">
+                <optgroup label="Выбор"></optgroup>
+                <option value="with">С террасой</option>
+                <option value="without">Без террасы</option>
+            </select>
+        </div>
+        <div>
+            <h2>Выбор класс</h2>
+            <label>Бизнес-класс
+                <input type="checkbox" name="class[]" value="business">
+            </label>
+
+            <label>Премиум
+                <input type="checkbox" name="class[]" value="premium">
+            </label>
+
+            <label>Deluxe
+                <input type="checkbox" name="class[]" value="deluxe">
+            </label>
+        </div>
+        <div>
+            <h2>Выбор этажа</h2>
+            <label>1
+                <input type="checkbox" name="floor" value="1" disabled>
+            </label>
+            <label>2
+                <input type="checkbox" name="floor" value="2">
+            </label>
+            <label>3
+                <input type="checkbox" name="floor" value="3">
+            </label>
+            <label>4
+                <input type="checkbox" name="floor" value="4">
+            </label>
+            <label>5
+                <input type="checkbox" name="floor" value="5">
+            </label>
+            <label>6
+                <input type="checkbox" name="floor" value="6">
+            </label>
+            <label>7
+                <input type="checkbox" name="floor" value="7">
+            </label>
+            <label>8
+                <input type="checkbox" name="floor" value="8">
+            </label>
+            <label>9
+                <input type="checkbox" name="floor" value="9" disabled>
+            </label>
+        </div>
+    </form>
+</body>
+</html>

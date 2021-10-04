@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="email">Введите email</label>
+            <input id="email" type="email" name="email" required placeholder="Ваш email">
+        </div>
+        <div>
+            <label for="password">Введите пароль</label>
+            <input id="password" type="password" name="password" required minlength="6" maxlength="20"
+                   placeholder="Придумайте пароль">
+        </div>
+        <div>
+                <label for="age">Ваш возраст</label>
+                <input id="age"  type="number" name="age" required placeholder="Ваш возраст" min="1">
+        </div>
+        <div>
+            <label for="name">Ваше имя</label>
+            <input id="name" type="text" name="name" placeholder="Ваше имя">
+        </div>
+        <div>
+            <label for="tel">Ваш номер телефона</label>
+            <input id="tel" type="tel" placeholder="Ваш номер телефона" name="tel">
+        </div>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
