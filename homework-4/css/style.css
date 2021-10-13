@@ -1,0 +1,94 @@
+@import url(flex-grid.css);
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.logo {
+    margin: 0;
+}
+
+header {
+    background-color: #9e5555;
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.link {
+    display: block;
+    padding: 10px;
+    background-color: #9e5555;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.side {
+    background-color: #d8d96d;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.background {
+    background-color: #e3c5c5;
+}
+
+.img-2 {
+    height: 100%;
+}
+
+.img-3 {
+    height: 100%;
+    width: 100%;
+}
+
+.width {
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap {
+    gap: 0.7rem;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.vertical a {
+    display: block;
+    background-color: #eee;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.vertical a:hover {
+    background-color: #d8d96d;
+}
