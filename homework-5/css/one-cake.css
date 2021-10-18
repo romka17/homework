@@ -1,0 +1,180 @@
+@import "style.css";
+
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+
+/* Первый ряд */
+
+.images {
+    display: flex;
+    margin-top: 4rem;
+}
+
+
+.images-main {
+    position: relative;
+    flex: 1;
+}
+
+.text-main {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    background-color: #01fadd;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.images-additional {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.images-additional div {
+    position: relative;
+    width: 50%;
+}
+
+.images-additional div::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 1s;
+}
+
+.images-additional div:hover::before {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 1s;
+}
+
+.images img {
+    height: 100%;
+    display: block;
+}
+
+/* Второй ряд */
+
+.second {
+    display: flex;
+}
+
+.second div {
+ flex: 1;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+a.block {
+    text-decoration: none;
+    color: inherit;
+}
+
+.basket {
+    background-color: #123C69;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.bold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sale {
+    margin-bottom: 1rem;
+}
+
+.cheesecake-second {
+    padding: 0.5rem;
+}
+
+/* Четвертый ряд */
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.size-icons {
+    font-size: 4rem;
+    margin-right: 8px;
+}
+
+.tip {
+    position: relative;
+}
+
+.text-icons {
+    position: absolute;
+    /*visibility: hidden; скрытие */
+    opacity: 0;
+    background-color: #01fadd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.tip:hover .text-icons {
+    /*visibility: visible;*/
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+/* Пятый ряд */
+
+.similar {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.similar h1 {
+    grid-column: 1 / 4;
+}
+
+.similar div {
+    height: 80% ;
+}
+
+.item img {
+    height: 100%;
+}
+
+.item a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    background-color: #123C69;
+    color: #fff;
+    box-shadow: 2px 14px 5px 5px #01fadd;
+        /*спещение по ширине*/
+        /*смещение по высоте*/
+        /*радиус размытия*/
+        /*размер тени */
+        /*цвет тени*/
+}
+
+.transform::first-letter {
+    text-transform: uppercase;
+}
+
+.item:hover img {
+    transform: scale(1.4);
+    transition: transform 1s linear;
+}
+
+/*overflow: hidden; scroll;*/

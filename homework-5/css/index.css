@@ -1,0 +1,145 @@
+@import "style.css";
+@import "flex-grid.css";
+
+html {
+    font-size: 20px;
+}
+
+.slider {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.slider > li {
+    display: none;
+    height: 50vh;
+    position: relative;
+}
+
+.slider img{
+    height: 100%;
+}
+
+.slider > li.active {
+    display: block;
+}
+
+.slide-title,
+.slide-description {
+    position: absolute;
+    padding: 1rem 2rem;
+    color: #edfa01;
+    background-color: rgb(106, 27, 154);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slide-title {
+    top: 2rem;
+    right: 2rem;
+}
+
+.slide-description {
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.popular {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.update {
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #e1fa01;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.category_menu {
+    display: flex;
+}
+
+.category_menu a {
+    flex: 1;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: #0122fa;
+    text-align: center;
+    margin: 5px;
+}
+
+.category_menu a:nth-child(1) {
+    background-color: #01fadd;
+}
+
+.category_menu a:nth-child(2) {
+    background-color: #fa1e01;
+}
+
+.category_menu a:nth-child(3) {
+    background-color: #f506a3;
+}
+
+.item {
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(106, 27, 154);
+    color: rgb(237, 231, 246);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer; /* вид курсора */
+}
+
+
+.category-menu {
+    display: flex;
+}
+
+.category-menu a {
+    flex: 1;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: rgb(106, 27, 154);
+    text-align: center;
+}
+
+.category-menu a:nth-child(1) {
+    background-color: rgb(251, 140, 0);
+}
+.category-menu a:nth-child(2) {
+    background-color: rgb(206, 147, 216);
+}
+.category-menu a:nth-child(3) {
+    background-color: rgb(129, 199, 132);
+}
+.item {
+    margin: 5px;
+}
+
+.item h1 {
+    text-transform: uppercase;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    background-color: #edfa01;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.item a {
+    display: block;
+    background-color: rgb(106, 27, 154);
+    color: rgb(237, 231, 246);
+    text-align: center;
+    padding: 0.5rem 0;
+    text-decoration: none;
+}
+
