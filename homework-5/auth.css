@@ -89,6 +89,11 @@ input[type="checkbox"] {
     display: none;
 }
 
+.remember-label {
+    display: flex;
+    align-items: center;
+}
+
 
 .remember-label::before {
     display: inline-block;
